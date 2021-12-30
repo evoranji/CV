@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.left-container {
+  position: fixed;
+  width: 400px;
+  height: 100vh;
+  background-image: url(bg.jpg);
+}
+
+.photo-contact {
+  position: absolute;
+  margin-top: 100%;
+  text-align: center;
+}
+
+.photo {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.btn {
+  width: 50%;
+  background-color: white;
+  margin-bottom: 14px;
+  font-size: 1.1rem;
+  padding: 14px;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: lightblue;
+  color: purple;
+  transition: 1s;
+}
+
+.right-container {
+  position: absolute;
+  left: 400px;
+}
+
+.top-bar{
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.list-menu {
+  float: right;
+  padding-right: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.title {
+  font-style: italic;
+  font-size: 1.3rem;
+}
+
+.menu {
+  font-size: 1.1rem;
+  padding: 0 15px;
+}
+
+#profile {
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+#about {
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#resume {
+  padding-top: 250px;
+  padding-left: 100px;
+}
+
+#contact {
+  padding-top: 250px;
+  padding-left: 100px;
+}
+
+#achievements {
+  padding-top: 250px;
+  padding-left: 100px;
+}
+
+#footer {
+  padding-top: 250px;
+  text-align: center;
+}
+
+p, li {
+  line-height: 200%;
+}
